@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Greet</title>
+    <link rel="stylesheet" href="p.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Fjalla+One&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- <h2 id="showTime"></h2>
+    <h1 id="greet"></h1>
+    <button onclick="checkTime()">Go</button> -->
+    <div class="container">
+        <i class="fa-solid fa-calendar-days"></i>
+        <div class="box">
+            <div id="hrBox" class="time-box"></div>
+            <div class="colen">:</div>
+            <div id="minBox" class="time-box"></div>
+            <div class="colen">:</div>
+            <div id="secBox" class="time-box"></div>
+            <div id="am" class="period"></div>
+        </div>
+        <div class="day"></div>
+        <div class="ddmmyy" style="display: flex; justify-content: center;gap: 0.5vw;">
+            <div class="date"></div>
+            <div class="month"></div>
+            <div class="year"></div>
+        </div>
+    </div>
+    <script src="p.js"></script>
+</body>
+
+</html>
